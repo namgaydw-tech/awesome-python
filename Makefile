@@ -1,6 +1,6 @@
 site_install:
 	pip install -r requirements.txt
-
+ 
 site_link:
 	ln -sf $(CURDIR)/README.md $(CURDIR)/docs/index.md
 
